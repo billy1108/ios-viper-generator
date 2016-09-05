@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+#require 'rubygems'
+require 'iosvipergen/iosvipergen'
+
+puts "------- VIPER GENERATOR---------\n"
+puts ARGV
+IOSvipergen::ViperGen.start(ARGV)
+puts "--------------------------------\n"

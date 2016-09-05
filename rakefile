@@ -1,0 +1,9 @@
+#!/usr/bin/env rake
+
+require 'rubygems'
+require "bundler/gem_tasks"
+require "iosvipergen"
+
+task :debug do 
+  Vipergen::Generator.generate_viper('default','Debug','~/Desktop')
+end
